@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nature.css">
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            color: #333;
+            text-decoration: none;
+        }
+        .hero {
+            background-color: #fff;
+            padding: 40px;
+            margin-bottom: 20px;
+        }
+        .hero-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .hero-left {
+            flex: 1;
+        }
+        .hero-right {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .section {
+            background-color: #fff;
+            padding: 40px;
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .section-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .section-left {
+            flex: 1;
+        }
+        .section-right {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .featured-things {
+            display: flex;
+            gap: 20px;
+        }
+        .featured-thing {
+            background-color: #eee;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .featured-thing-title {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .featured-thing-content {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .call-to-action {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .call-to-action button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .footer-links a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .newsletter-form {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .newsletter-form-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .newsletter-form-input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .newsletter-form-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Your Logo</div>
+                <div class="nav-links">
+                    <a href="#">About Us</a>
+                    <a href="#">Product</a>
+                    <a href="#">Blog</a>
+                    <a href="#" class="button">Call to action</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-left">
+                        <h1>The future of web design, today</h1>
+                        <p>The future of web design, today. Download the Ultimate contomate guide.</p>
+                        <a href="#" class="button">Call to action</a>
+                    </div>
+                    <div class="hero-right">
+                        <img src="hero-image.jpg" alt="Hero Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">What we do</h2>
+                <div class="section-content">
+                    <div class="section-left">
+                        <p>Our vision is to make as big an impact on the planet, we plant as many trees as possible. Can you figure out?</p>
+                    </div>
+                    <div class="section-right">
+                        <ul>
+                            <li>We recycle everything we see</li>
+                            <li>We teach people how to reuse such</li>
+                            <li>We alive in human being as problem solver</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Featured things</h2>
+                <p>Our mission is very important to the planet, we plant as many trees as possible. Can you figure out?</p>
+                <div class="featured-things">
+                    <div class="featured-thing">
+                        <h3 class="featured-thing-title">The future of web design, today</h3>
+                        <p class="featured-thing-content">The future of web design, today.</p>
+                        <a href="#" class="button">Call to action</a>
+                    </div>
+                    <div class="featured-thing">
+                        <h3 class="featured-thing-title">The future of web design, today</h3>
+                        <p class="featured-thing-content">The future of web design, today.</p>
+                        <a href="#" class="button">Call to action</a>
+                    </div>
+                    <div class="featured-thing">
+                        <h3 class="featured-thing-title">The future of web design, today</h3>
+                        <p class="featured-thing-content">The future of web design, today.</p>
+                        <a href="#" class="button">Call to action</a>
+                    </div>
+                </div>
+                <div class="call-to-action">
+                    <p>Our mission is very important to the planet, we plant as many trees as possible. Can you figure out?</p>
+                    <a href="#" class="button">Call to action</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-form">
+            <div class="container">
+                <h2 class="newsletter-form-title">Subscribe now to the newsletter</h2>
+                <form>
+                    <input type="text" class="newsletter-form-input" placeholder="Your name">
+                    <input type="email" class="newsletter-form-input" placeholder="Your email">
+                    <input type="checkbox" class="newsletter-form-checkbox"> I consent to my privacy settings
+                    <button type="submit" class="newsletter-form-button">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">More Information</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">Stay in contact</a>
+                <a href="#">Our adress</a>
+            </div>
+            <p>&copy; 2023 All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+                <a href="#">Legal Advice</a>
+                <a href="#">FAQ</a>
+                <a href="#">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
